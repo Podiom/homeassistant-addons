@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.1.85 - 2026-07-06
+
+- feat: Add context window indicator
+
+### Bundled versions
+
+- BUILD_FROM: ghcr.io/hassio-addons/debian-base:9.3.0
+- NODE_MAJOR: 22
+- CLAUDE_CODE_VERSION: 2.1.201
+- CODEX_VERSION: 0.142.5
+- MCP_PROXY_VERSION: 0.12.0
+- TTYD_VERSION: 1.7.7
+
+> Compare with the previous entry for CLI version drift; CLI flags
+> Podiom depends on (e.g. --mcp-config, --add-dir, --profile) are
+> version-sensitive.
+
+
 ## 0.1.84 - 2026-07-06
 
 - feat: Allow removing projects and remove/edit mcp servers
